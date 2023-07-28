@@ -10,7 +10,7 @@ interface LinkProps {
     children: ReactNode
 }
 
-export function Link ({path, children}: LinkProps) {
+export function LinkNav ({path, children}: LinkProps) {
     const pathName = usePathname();
 
     return (

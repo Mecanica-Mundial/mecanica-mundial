@@ -1,4 +1,4 @@
-import { Link } from "../Link";
+import { LinkNav } from "../LinkNav";
 
 export default function Header() {
 
@@ -7,15 +7,15 @@ export default function Header() {
       className="flex justify-center items-center w-full h-20 bg-zinc-700 "
     >
       <nav className="h-fit flex gap-2">
-        <Link path="/">
+        <LinkNav path="/">
           HOME
-        </Link>
-        <Link path="/about" >
+        </LinkNav>
+        <LinkNav path="/about" >
           A EMPRESA
-        </Link>
-        <Link path="/work-with-us" >
+        </LinkNav>
+        <LinkNav path="/work-with-us" >
           TRABALHE CONOSCO
-        </Link>
+        </LinkNav>
       </nav>
     </header>
   )
