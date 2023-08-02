@@ -5,7 +5,6 @@
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-rgb: 214, 219, 220;
-  
 }
 
 @media (prefers-color-scheme: dark) {
@@ -18,4 +17,5 @@
 body {
   color: rgb(var(--foreground-rgb));
   background: rgb(var(--background-rgb));
+  box-sizing: border-box;
 }
