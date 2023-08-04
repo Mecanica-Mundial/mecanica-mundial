@@ -7,7 +7,7 @@ export default function Header() {
 
   return (
     <header
-      className="flex justify-around items-center w-full h-20 bg-zinc-700 shadow-amber-200 shadow-lg"
+      className="flex justify-around items-center w-full h-20 bg-zinc-700"
     >
       <Image width={218} height={50} src={"/images/mundial.svg"} alt="" className="w-56"/>
       <nav className="h-fit flex gap-2">
