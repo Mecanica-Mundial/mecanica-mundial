@@ -1,12 +1,55 @@
-div{
-    display: flex;
+@import url("https://fonts.googleapis.com/css2?family=Wallpoet&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+#section {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  max-width: 800px;
+  margin: 0 auto;
 }
-#esquerda{
-    display: flex;
-    flex-direction: column;
+
+#p {
+  width: 426px;
+  height: 54px;
+  margin-top: 40px;
+  margin-left: 92px;
+  font-family: "outfit", cursive;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30.24px;
 }
-#direita{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+#h1 {
+  font-family: "Wallpoet", cursive;
+  margin-top: 10px;
+  color: #05b0f0;
+  width: 927px;
+  height: 173px;
+  font-size: 86px;
+  line-height: 96.19px;
+  font-weight: 400;
+  height: 173px;
+  margin-left: 88px;
+  margin-top: 192px;
+}
+
+#esquerda {
+  flex: 1;
+  z-index: 0;
+}
+
+#direita {
+  flex: 0.7;
+  z-index: 1;
+}
+
+img {
+  width: 90%;
+  height: 419px;
+  margin-top: 30px;
+  margin-left: 392px;
+}
+#button {
+  margin-left: 92px;
+  margin-bottom: -242px;
 }
