@@ -2,6 +2,13 @@ import ServiceCard from "@/components/Atom/ServiceCard/ServiceCard";
 import "./index.css";
 
 export default function ServicesSession({data}) {
+  interface typeService {
+    tituloStrong: string,
+    tituloNormal: string,
+    id: number,
+    description: string,
+    image: string
+  }
 
   return (
     <div className="ServicesSession w-full">
@@ -18,11 +25,11 @@ export default function ServicesSession({data}) {
         </p>
       </div>
       <div className="grid lg:grid-cols-4 md:grid-cols-3 justify-items-center">
-        {data.map((servico: any) => (
+        {data.map((servico: typeService) => (
           <ServiceCard
             key={servico.id}
-            titleStrong={servico.tituloStrong}
-            titleNormal={servico.tituloNormal}
+            tituloStrong={servico.tituloStrong}
+            tituloNormal={servico.tituloNormal}
             description={servico.description}
             image={servico.image}
           />
