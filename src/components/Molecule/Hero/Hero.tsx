@@ -14,6 +14,13 @@ export default function Hero() {
       <div id='direita' >
         <Image src="/images/carross.png" width={400} height={600} alt="3 carros" className="max-w-full " />
       </div>
+      <div id='span'>
+        <span>
+        Role para baixo
+        </span>
+        <Image id='seta' src="/images/seta.png" width={50} height={30} alt='seta para baixo' className="max-w-full" />
+        </div>
+    
     </div>
     </section>
    );
