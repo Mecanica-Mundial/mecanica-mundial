@@ -1,5 +1,4 @@
 import ServiceCard from "@/components/Atom/ServiceCard/ServiceCard";
-import "./index.css";
 
 export default function ServicesSession({data}) {
   interface typeService {
@@ -11,15 +10,15 @@ export default function ServicesSession({data}) {
   }
 
   return (
-    <div className="ServicesSession w-full">
+    <div className="bg-whiteMundial w-full font-out">
       <div className="p-10">
-        <h1 className="cursor-default">SERVIÇOS</h1>
-        <p className="cursor-default">
+        <h1 className="cursor-default text-blackMundial text-[2.7rem] font-medium mb-8">SERVIÇOS</h1>
+        <p className="cursor-default text-blackMundial text-xl font-normal mb-8">
           Nossa missão é oferecer serviços personalizados aos nossos clientes
           com qualidade, agilidade e profissionais capacitados para cuidar dos
           mínimos detalhes do seu veículo.
         </p>
-        <p className="cursor-default">
+        <p className="cursor-default text-blackMundial text-xl font-normal mb-8">
           Nossa satisfação é garantir o melhor produto e serviço com o menor
           preço e as melhores condições do mercado.
         </p>
