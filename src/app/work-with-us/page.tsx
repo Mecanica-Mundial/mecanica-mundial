@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function WorkWithUs () {
 
@@ -26,9 +27,13 @@ export default function WorkWithUs () {
                 </p>
             </div>
 
-            <button className="bg-blue-500 py-2 px-8 mt-8 rounded-lg font-semibold text-white">
+            <Link
+                href={"https://wa.me/5535991054663"}
+                target="_blank"
+                className="inline-block bg-blue-500 py-2 px-8 mt-8 rounded-lg font-semibold text-white"
+            >
                 ENVIAR CURRÍCULO
-            </button>
+            </Link>
             
             <Image 
                 className="w-96 absolute bottom-0 right-32"
