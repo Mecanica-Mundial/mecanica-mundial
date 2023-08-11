@@ -1,6 +1,6 @@
 interface WorkWithUsProps {}
 
-export function WorkWithUs (props: WorkWithUsProps) {
+export default function WorkWithUs (props: WorkWithUsProps) {
 
     return (
         <>
