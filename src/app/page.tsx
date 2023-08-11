@@ -1,5 +1,17 @@
+import BrandsRoulette from "@/components/Molecule/BrandsRoulette/BrandsRoulette"
+
+
+
+
+
+
+
+
+
 export default function Home() {
   return (
-    <h1>Mecanica mundial</h1>
+    <div>
+    <BrandsRoulette />
+    </div>
   )
 }
