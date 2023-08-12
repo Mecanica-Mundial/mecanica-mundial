@@ -43,7 +43,7 @@ export default function BrandsRoulette() {
   }, []);
 
   return (
-    <div className="container bg-blue-500 mt-96 w-full w-screen">
+    <div className="bg-blue-500 mt-96 w-full w-screen">
       <div className="flex flex-row space-x-4 h-48 justify-around ml-10 mr-10">
         {visibleIndices.map((index) => (
           <div key={index}>
