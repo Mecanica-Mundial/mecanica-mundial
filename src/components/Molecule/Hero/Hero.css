@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Wallpoet&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  background-color: #2e2e2e;
+}
+
+#section {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Centralize verticalmente */
+  width: 100%;
+  height: 100%;
+}
+#p {
+  width: 431px;
+  height: 68px;
+  margin-top: 40px;
+  margin-left: 134px;
+  font-family: "outfit", cursive;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 35.24px;
+}
+
+#h1 {
+  font-family: "Wallpoet", cursive;
+  color: #05b0f0;
+  width: 934px;
+  font-size: 100px;
+  line-height: 103.19px;
+  font-weight: 400;
+  height: 191px;
+  margin-left: 124px;
+  margin-top: 195px;
+}
+
+#esquerda {
+  flex: 1;
+  z-index: 0;
+  margin-left: 222px;
+}
+
+#direita {
+  flex: 0.7;
+  z-index: 1;
+}
+
+img {
+  width: 58%;
+  height: 445px;
+  margin-top: 24px;
+  margin-left: 402px;
+}
+
+#button {
+  margin-left: 132px;
+  margin-bottom: -242px;
+}
+
+#span {
+  font-family: "outfit", cursive;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17.64px;
+  margin-left: 42%;
+  color: #05b0f0;
+}
+
+#seta {
+  width: 24px;
+  height: 24px;
+  margin-left: 4%;
+}
+@media (max-width: 768px) {
+  #section {
+    width: 100%;
+    flex-direction: column; /* Alterar para coluna em telas menores */
+  }
+  #p {
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 0px;
+    font-size: 17px;
+    line-height: 21px;
+  }
+
+  #h1 {
+    width: auto;
+    font-size: 33px;
+    line-height: 42px;
+    height: auto;
+    margin-left: 0;
+    margin-top: 80px;
+  }
+
+  #esquerda {
+    margin-left: 20px;
+  }
+
+  img {
+    width: 100%;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: -9px;
+  }
+
+  #button {
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+
+  #span {
+    font-size: 12px;
+    text-align: center;
+    line-height: 13px;
+    margin-left: -44px;
+  }
+
+  #seta {
+    width: 20px;
+    height: 20px;
+    margin-left: 180px;
+  }
+}
