@@ -23,7 +23,9 @@ export default function RootLayout({ children }: RootLayoutProps) {
     <html lang="pt-br">
       <body className={inter.className}>
         <Header />
-        {children}
+        <div className="mt-20">
+          {children}
+        </div>
         <Footer />
       </body>
     </html>
