@@ -43,12 +43,12 @@ export default function BrandsRoulette() {
   }, []);
 
   return (
-    <div className="bg-blue-500 mt-96 w-full w-screen">
-      <div className="flex flex-row space-x-4 h-48 justify-around ml-10 mr-10">
+    <div className="bg-blue-500 mt-96 w-full w-screen h-32">
+      <div className="flex flex-row space-x-4 justify-around items-center ml-10 mr-10 h-full">
         {visibleIndices.map((index) => (
-          <div key={index}>
+          <div key={index} className="flex justify-center items-center">
             <Image
-              className="h-24 mt-10 w-24"
+              className="h-14 w-14 mt-auto"
               src={carArray[index]}
               width={100}
               height={60}
@@ -59,6 +59,7 @@ export default function BrandsRoulette() {
       </div>
     </div>
   );
+  
 }
 
 
