@@ -23,43 +23,42 @@ export default function BrandsRoulette() {
     peugeot, mitsubish, ferrari, lamborghini, toyota, jaguar
   ];
 
+
   const [visibleIndices, setVisibleIndices] = useState<number[]>([0, 1, 2, 3, 4, 5]);
 
   useEffect(() => {
     const interval = setInterval(() => {
-      const newIndices: number[] = [];
-      while (newIndices.length < 7) {
-        const randomIndex: number = Math.floor(Math.random() * carArray.length);
-        if (!newIndices.includes(randomIndex)) {
-          newIndices.push(randomIndex);
-        }
-      }
+      const lastIndex = visibleIndices[0];
+      const prevIndex = (lastIndex - 1 + carArray.length) % carArray.length;
+      const newIndices = [prevIndex, ...visibleIndices.slice(0, -1)];
       setVisibleIndices(newIndices);
     }, 2000);
 
     return () => {
       clearInterval(interval);
     };
-  }, []);
+  }, [visibleIndices]);
 
   return (
     <div className="bg-blue-500 mt-96 w-full w-screen h-32">
-      <div className="flex flex-row space-x-4 justify-around items-center ml-10 mr-10 h-full">
+      <div className="flex flex-row-reverse space-x-4 justify-around items-center ml-10 mr-10 h-full">
         {visibleIndices.map((index) => (
           <div key={index} className="flex justify-center items-center">
-            <Image
-              className="h-14 w-14 mt-auto"
-              src={carArray[index]}
-              width={100}
-              height={60}
-              alt={`Car ${index}`}
-            />
+            <div className="w-3/4 h-auto" style={{ maxWidth: '80%', height: 'auto' }}>
+              <Image
+                src={carArray[index]}
+                alt={`Car ${index}`}
+                layout="responsive"
+                width={100}
+                height={60}
+              />
+            </div>
           </div>
         ))}
       </div>
     </div>
   );
-  
+
 }
 
 
