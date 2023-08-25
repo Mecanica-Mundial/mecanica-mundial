@@ -3,7 +3,6 @@ import ServicesSession from "@/components/Molecule/ServicesSession/ServicesSessi
 import {SERVICES_MOCK} from "../mocks/Services.mock";
 
 
-
 export default function Home() {
   return (
     <>
