@@ -6,7 +6,6 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-<<<<<<< Updated upstream
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
@@ -14,7 +13,6 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
           'blue-500': '#05B0F0',
       },
-=======
     fontFamily: {
       out: ["Outfit", "sans-serif"],
     },
@@ -41,7 +39,12 @@ module.exports = {
       animation: {
         'scroll': '20s slide infinite linear'
       },
->>>>>>> Stashed changes
+      colors: {
+
+        'primary': '#05b0f0',
+        'whiteMundial': '#f6f6f6',
+        'blackMundial': '#2d2d2d'
+      }
     },
   },
   plugins: [],
