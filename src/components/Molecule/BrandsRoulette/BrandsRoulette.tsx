@@ -7,7 +7,7 @@ import Image from "next/image";
 export default function BrandsRoulette() {
   
   return (
-    <div className="bg-sky-500 h-[150px]">
+    <div className="bg-sky-500 h-[150px] overflow-hidden">
       <div className="overflow-hidden whitespace-nowrap py-[50px] px-0 w-[calc(500px*28)]">
         <div className="inline-flex animate-scroll">
           <img src="/images/logos/volkswagen.svg" alt=""  className="h-[50px] mx-[30px]"/>
