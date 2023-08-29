@@ -5,6 +5,7 @@ import {SERVICES_MOCK} from "../mocks/Services.mock";
 import BrandsRoulette from "@/components/Molecule/BrandsRoulette/BrandsRoulette";
 import ProductSession from "@/components/Molecule/ProductSession/ProductSession";
 
+
 export default function Home() {
   return (
     <>
