@@ -7,7 +7,8 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      'out': ['Outfit', 'sans-serif']
+      'out': ['Outfit', 'sans-serif'],
+      'wall': ['Wallpoet', 'sans-serif']
     },
     extend: {
       backgroundImage: {
