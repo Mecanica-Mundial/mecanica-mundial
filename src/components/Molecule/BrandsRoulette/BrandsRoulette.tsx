@@ -23,7 +23,6 @@ export default function BrandsRoulette() {
           <Image width={75} height={75} src="/images/logos/toyota.svg" alt="carro toyota" className="mx-[30px]" />
           <Image width={55} height={55} src="/images/logos/lamborghini.svg" alt="carro lamborghini" className="mx-[30px]" />
           <Image width={120} height={120} src="/images/logos/ferrari.svg" alt="carro ferrari" className="mx-[30px]" />
-
         </div>
 
         <div className="inline-flex animate-scroll">
@@ -42,7 +41,6 @@ export default function BrandsRoulette() {
           <Image width={75} height={75} src="/images/logos/toyota.svg" alt="carro toyota" className="mx-[30px]" />
           <Image width={55} height={55} src="/images/logos/lamborghini.svg" alt="carro lamborghini" className="mx-[30px]" />
           <Image width={120} height={120} src="/images/logos/ferrari.svg" alt="carro ferrari" className="mx-[30px]" />
-
         </div>
 
         <div className="inline-flex animate-scroll">
@@ -61,7 +59,6 @@ export default function BrandsRoulette() {
           <Image width={75} height={75} src="/images/logos/toyota.svg" alt="carro toyota" className="mx-[30px]" />
           <Image width={55} height={55} src="/images/logos/lamborghini.svg" alt="carro lamborghini" className="mx-[30px]" />
           <Image width={120} height={120} src="/images/logos/ferrari.svg" alt="carro ferrari" className="mx-[30px]" />
-
         </div>
       </div>
     </div>
