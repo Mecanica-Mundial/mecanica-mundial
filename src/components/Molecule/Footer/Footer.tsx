@@ -10,7 +10,7 @@ export default function Footer() {
   const pathName = usePathname();
 
   return (
-    <footer className="flex items-center flex-col gap-4 w-full bg-zinc-700 py-8 px-4 sm:px-8 relative" >
+    <footer className="flex items-center flex-col gap-4 w-full bg-blackMundial py-8 px-4 sm:px-8 relative" >
       <div className="bg-amber-300 h-1 w-11/12 sm:w-3/4 absolute top-4 left-0"/>
       <div className="flex justify-between flex-col gap-8 sm:gap-4 sm:flex-row items-center w-4/5 sm:w-3/5 sm:h-[255px] py-8 sm:py-12">
         <Image 

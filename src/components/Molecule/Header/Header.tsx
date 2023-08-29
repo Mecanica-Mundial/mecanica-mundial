@@ -14,7 +14,7 @@ export default function Header() {
 
   return (
     <header
-      className="flex justify-between sm:justify-around items-center w-full h-20 px-4 bg-zinc-700 shadow-amber-200 shadow-sm fixed top-0 z-50"
+      className="flex justify-between sm:justify-around items-center w-full h-20 px-4 bg-blackMundial shadow-amber-200 shadow-sm fixed top-0 z-50"
     >
       <Image 
         width={218}
