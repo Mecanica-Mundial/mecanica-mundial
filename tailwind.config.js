@@ -13,7 +13,8 @@ module.exports = {
       "blue-500": "#05B0F0",
     },
     fontFamily: {
-      out: ["Outfit", "sans-serif"],
+      'out': ['Outfit', 'sans-serif'],
+      'wall': 'Wallpoet, sans-serif'
     },
     extend: {
       backgroundImage: {
@@ -35,9 +36,16 @@ module.exports = {
         scroll: "20s slide infinite linear",
       },
       colors: {
-        primary: "#05b0f0",
-        whiteMundial: "#f6f6f6",
-        blackMundial: "#2d2d2d",
+        'primary': '#05b0f0',
+        'whiteMundial': '#f6f6f6',
+        'blackMundial': '#2d2d2d'
+      },
+      boxShadow: {
+        'button': [
+          '0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset',
+          '8px 16px 20px 0px rgba(0, 0, 0, 0.50) inset',
+          '0px 0px 32px 0px rgba(246,246,246,0.4)'
+        ]
       },
     },
   },
