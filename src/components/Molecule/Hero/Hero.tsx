@@ -9,7 +9,7 @@ export default function Hero() {
         <div className='w-full relative h-[27rem]'>
             <div className='flex flex-col w-full gap-6 items-start justify-center'>
                 <h1 className='font-wall font-bold uppercase text-4xl sm:text-8xl w-80 text-primary'>Centro Especializado</h1>
-                <p className='w-[25rem] text-lg'>Em injeção eletrônica, limpezas de bicos e manutenção geral em veículos leves</p>
+                <p className='sm:w-[25rem] text-lg'>Em injeção eletrônica, limpezas de bicos e manutenção geral em veículos leves</p>
                 <div className='flex w-full gap-6 items-center justify-start'>
                     <button className='w-28 h-10 shadow-button font-bold bg-primary text-whiteMundial rounded-xl'>CONTATO</button>
                     <button className='w-28 h-10 shadow-button font-bold bg-whiteMundial text-blackMundial rounded-xl'>SERVIÇOS</button>
