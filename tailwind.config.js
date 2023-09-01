@@ -6,6 +6,23 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    screens: {
+      'md-10': { 'min': '1450px' },
+      'md-11': { 'min': '1550px' },
+      'md-12': { 'min': '1650px' },
+      'md-13': { 'min': '1750px' },
+      'md-14': { 'min': '1850px' },
+      'md-15': { 'min': '1950px' },
+      'l-10': { 'max': '1299px' },
+      'l-11': { 'max': '1185px' },
+      'l-12': { 'max': '935px' },
+      'l-13': { 'max': '820px' },
+      'sm-10': { 'max': '700px' },
+      'sm': { 'min': '640px' },
+      'sm-11': { 'max': '555px' },
+      'sm-12': { 'max': '485px' },
+      'sm-13': { 'max': '385px' },
+    },
     backgroundImage: {
       "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
       "gradient-conic":
