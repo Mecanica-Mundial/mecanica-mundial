@@ -36,7 +36,7 @@ export default function WorkWithUs () {
             </Link>
             
             <Image 
-                className="w-96 absolute bottom-0 right-32"
+                className="max-sm:hidden w-96 absolute bottom-0 right-32"
                 src={"/images/work-with-us-image.png"}
                 alt=""
                 width={464}
