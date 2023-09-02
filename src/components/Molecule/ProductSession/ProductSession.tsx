@@ -1,8 +1,7 @@
 import ProductCarosel from "@/components/Atom/ProductCarosel/ProductCarosel";
 import { PRODUCTS_MOCK } from "@/mocks/Products.mock";
 
-export default function ProductSession() {
-  
+export default function ProductSession() {  
 
   return (
     <div className="bg-whiteMundial" id="products">
