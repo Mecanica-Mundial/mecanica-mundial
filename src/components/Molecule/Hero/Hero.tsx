@@ -13,7 +13,8 @@ export default function Hero() {
                 <p className='w-[25rem] sm-12:w-full text-lg md-12:text-xl'>Em injeção eletrônica, limpezas de bicos e manutenção geral em veículos leves</p>
                 <div className='flex w-full gap-6 items-center justify-start'>
                     <Link 
-                        href="/#contact"
+                        href="https://wa.me/5535991054663"
+                        target="_blank"
                         className='flex justify-center items-center w-28 md-12:w-32 md-12:text-xl md-12:h-11 sm-13:h-8 sm-13:text-base h-10 shadow-button font-bold bg-primary text-whiteMundial rounded-xl'
                     >
                         CONTATO
