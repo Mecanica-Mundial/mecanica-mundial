@@ -22,8 +22,8 @@ export default function ServiceCard({tituloStrong, tituloNormal, description, im
           {tituloNormal}
         </p>
       </div>
-      <div className="p-3 hidden h-full group-hover:flex group-hover:items-center group-hover:flex-col group-hover:justify-center">
-        <p className="text-base text-neutral-200 cursor-default">
+      <div className="p-2 hidden h-full group-hover:flex group-hover:items-center group-hover:justify-center ">
+        <p className="text-base text-neutral-200 cursor-default md-13:text-xl">
           {description}
         </p>
       </div>
