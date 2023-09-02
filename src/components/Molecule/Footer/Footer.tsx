@@ -28,7 +28,7 @@ export default function Footer() {
             className={
                 pathName == "/" 
                 ? "text-blue-500 border-b-2 border-blue-500 hover:text-blue-700 hover:border-blue-700" 
-                : "hover:text-gray-400"
+                : "hover:text-blue-500"
             }
           > HOME </Link>
           <Link 
@@ -36,7 +36,7 @@ export default function Footer() {
             className={
                 pathName == "/about" 
                 ? "text-blue-500 border-b-2 border-blue-500 hover:text-blue-700" 
-                : "hover:text-gray-400"
+                : "hover:text-blue-500"
             }
           > A EMPRESA </Link>
           <Link 
@@ -44,7 +44,7 @@ export default function Footer() {
             className={
                 pathName == "/products" 
                 ? "text-blue-500 border-b-2 border-blue-500 hover:text-blue-700 hover:border-blue-700" 
-                : "hover:text-gray-400"
+                : "hover:text-blue-500"
             }
           > PRODUTOS </Link>
           <Link 
@@ -52,7 +52,7 @@ export default function Footer() {
             className={
                 pathName == "/services" 
                 ? "text-blue-500 border-b-2 border-blue-500 hover:text-blue-700 hover:border-blue-700" 
-                : "hover:text-gray-400"
+                : "hover:text-blue-500"
             }
           > SERVIÇOS </Link>
           <Link 
@@ -60,7 +60,7 @@ export default function Footer() {
             className={
                 pathName == "/work-with-us" 
                 ? "text-blue-500 border-b-2 border-blue-500 hover:text-blue-700 hover:border-blue-700" 
-                : "hover:text-gray-400"
+                : "hover:text-blue-500"
             }
           > TRABALHE CONOSCO </Link>
         </nav>
@@ -76,7 +76,7 @@ export default function Footer() {
               <Whatsapp 
                 size="24"
                 variant="Bold"
-                className="text-white hover:text-blue-700text-blue-500"
+                className="text-white hover:text-blue-500"
               />
             </Link>
             <Link 
