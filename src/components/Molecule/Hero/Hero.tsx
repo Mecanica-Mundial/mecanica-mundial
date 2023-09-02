@@ -2,6 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import HeroCar from '../../../../public/images/heroCar.png'
 import Scroll from '../../../../public/images/scroll.png'
+import Link from 'next/link'
 
 export default function Hero() {
     return (
@@ -11,8 +12,18 @@ export default function Hero() {
                 <h1 className='font-wall font-bold uppercase text-8xl l-12:text-7xl w-80 sm-10:w-72 sm-12:w-full sm-10:text-6xl sm-11:text-[3.25rem] sm-12:text-[2.5rem] sm-13:text-4xl text-primary'>Centro Especializado</h1>
                 <p className='w-[25rem] sm-12:w-full text-lg md-12:text-xl'>Em injeção eletrônica, limpezas de bicos e manutenção geral em veículos leves</p>
                 <div className='flex w-full gap-6 items-center justify-start'>
-                    <button className='w-28 md-12:w-32 md-12:text-xl md-12:h-11 sm-13:h-8 sm-13:text-base h-10 shadow-button font-bold bg-primary text-whiteMundial rounded-xl'>CONTATO</button>
-                    <button className='w-28 md-12:w-32 md-12:text-xl md-12:h-11 sm-13:h-8 sm-13:text-base h-10 shadow-button font-bold bg-whiteMundial text-blackMundial rounded-xl'>SERVIÇOS</button>
+                    <Link 
+                        href="/#contact"
+                        className='flex justify-center items-center w-28 md-12:w-32 md-12:text-xl md-12:h-11 sm-13:h-8 sm-13:text-base h-10 shadow-button font-bold bg-primary text-whiteMundial rounded-xl'
+                    >
+                        CONTATO
+                    </Link>
+                    <Link 
+                        href="/#services"
+                        className='flex justify-center items-center w-28 md-12:w-32 md-12:text-xl md-12:h-11 sm-13:h-8 sm-13:text-base h-10 shadow-button font-bold bg-whiteMundial text-blackMundial rounded-xl'
+                    >
+                        SERVIÇOS
+                    </Link>
                 </div>
             </div>
             <Image className='absolute right-0 bottom-6 l-10:w-[50rem] l-10:right-[-24px] l-11:w-[40rem] l-11:right-[-40px] l-11:bottom-2 l-12:w-[52.5rem] l-13:w-[70rem] l-12:bottom-[-2.5rem] l-12:right-[0rem] l-13:bottom-[-1rem] sm-10:bottom-[3rem] sm-11:bottom-[5rem] sm-12:bottom-[4rem] sm-13:bottom-[7rem]' src={HeroCar} alt='Carros' aria-label='Carros' width={840} height={360}/>
