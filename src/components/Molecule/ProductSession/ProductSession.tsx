@@ -4,7 +4,7 @@ import { PRODUCTS_MOCK } from "@/mocks/Products.mock";
 export default function ProductSession() {  
 
   return (
-    <div className="bg-whiteMundial" id="products">
+    <div className="bg-whiteMundial px-16 md-10:px-20 md-11:px-28 md-12:px-36 md-13:px-44 md-14:px-52 md-15:px-60 l-10:px-14 l-11:px-6 sm-13:px-4" id="products">
       <div className="p-10">
         <h1 className="cursor-default text-blackMundial text-[2.7rem] font-medium mb-8">
           PRODUTOS
