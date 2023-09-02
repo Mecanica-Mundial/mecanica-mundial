@@ -7,7 +7,6 @@ import people from '../../../../public/images/woman.png'
 
 export default function ContactSession() {
     return (
-        <>
         <section className="h-[36.5rem] w-full bg-primary px-20 md-10:px-28 md-11:px-32 md-12:px-36 md-13:px-44 md-14:px-52 md-15:px-60 l-10:px-14 l-11:px-10 sm-13:px-1 pt-8 flex flex-col sm:flex-row items-center justify-center text-white" >
             <div className="w-full h-full flex flex-col gap-6 px-4 sm-13:px-1 pt-4">
                 <h1 className="text-4xl font-medium cursor-default">LOCALIZAÇÃO E CONTATOS</h1>
@@ -40,6 +39,5 @@ export default function ContactSession() {
                 <Image className="absolute bottom-0 left-[-1rem] l-13:hidden" src={people} width={200} alt="woman" aria-label="woman"></Image>
             </div>
         </section>
-        </>
     )
 }

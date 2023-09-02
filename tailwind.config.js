@@ -19,6 +19,7 @@ module.exports = {
       'l-13': { 'max': '820px' },
       'sm-10': { 'max': '700px' },
       'sm': { 'min': '640px' },
+      'max-sm': { 'max': '640px' },
       'sm-11': { 'max': '555px' },
       'sm-12': { 'max': '485px' },
       'sm-13': { 'max': '385px' },

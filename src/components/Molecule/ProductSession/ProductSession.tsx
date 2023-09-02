@@ -1,11 +1,10 @@
 import ProductCarosel from "@/components/Atom/ProductCarosel/ProductCarosel";
 import { PRODUCTS_MOCK } from "@/mocks/Products.mock";
 
-export default function ProductSession() {
-  
+export default function ProductSession() {  
 
   return (
-    <div className="bg-whiteMundial">
+    <div className="bg-whiteMundial" id="products">
       <div className="p-10">
         <h1 className="cursor-default text-blackMundial text-[2.7rem] font-medium mb-8">
           PRODUTOS
