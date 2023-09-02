@@ -4,12 +4,12 @@ import Link from "next/link";
 export default function WorkWithUs () {
 
     return (
-        <div className="px-32 py-16 relative">
-            <h1 className="text-4xl uppercase font-medium">
+        <div className="px-32 l-11:px-16 max-sm:px-8 py-16 max-sm:py-8 relative">
+            <h1 className="text-4xl max-sm:text-3xl uppercase font-medium">
                 Trabalhe conosco
             </h1>
 
-            <div className="flex flex-col gap-4 w-4/6 mt-8 font-medium text-xl">
+            <div className="flex flex-col gap-4 w-4/6 max-sm:w-full mt-8 font-medium text-xl max-sm:text-base">
                 <p>
                     Estamos sempre em busca de talentos apaixonados por automóveis e comprometidos em oferecer serviços de qualidade.
                 </p>
@@ -36,7 +36,7 @@ export default function WorkWithUs () {
             </Link>
             
             <Image 
-                className="max-sm:hidden w-96 absolute bottom-0 right-32"
+                className="max-sm:hidden w-96 l-11:w-80 absolute bottom-0 right-32 l-11:right-10 l-12:right-4"
                 src={"/images/work-with-us-image.png"}
                 alt=""
                 width={464}

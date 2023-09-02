@@ -14,7 +14,7 @@ export default function Header() {
 
   return (
     <header
-      className="flex justify-between sm:justify-around items-center w-full h-20 px-4 bg-blackMundial shadow-amber-200 shadow-sm fixed top-0 z-50"
+      className="flex l-13:justify-between justify-around items-center w-full h-20 px-4 bg-blackMundial shadow-amber-200 shadow-sm fixed top-0 z-50"
     >
       <Image 
         width={218}
@@ -24,7 +24,7 @@ export default function Header() {
         className="w-32 sm:w-56"
       />
       
-      <button className="sm:hidden" onClick={handleMobileMenu}>
+      <button className="hidden l-13:inline" onClick={handleMobileMenu}>
         { 
           showMobileHeader 
           ? <CloseSquare size="32" color="#FFFFFF"/>
@@ -36,17 +36,17 @@ export default function Header() {
         className={
           showMobileHeader
           ? "flex justify-between items-center gap-12 flex-col absolute top-20 right-0 bg-blue-900 px-4 py-8 rounded-lg" 
-          : "max-sm:hidden flex justify-between gap-32 flex-row"
+          : "l-13:hidden flex justify-between gap-32 l-11:gap-12 l-12:gap-8 flex-row"
         }
       >
-        <nav className="h-fit flex flex-col items-center sm:flex-row gap-2">
+        <nav className="h-fit flex l-13:flex-col items-center gap-2 l-12:gap-1 l-13:gap-0">
           <LinkNav path="/">
             HOME
           </LinkNav>
-          <LinkNav path="/services" >
+          <LinkNav path="/#services" >
             SERVIÇOS
           </LinkNav>
-          <LinkNav path="/products" >
+          <LinkNav path="/#products" >
             PRODUTOS
           </LinkNav>
           <LinkNav path="/about" >
@@ -64,7 +64,7 @@ export default function Header() {
               className="text-white hover:text-blue-500"
             />
           </Link>
-          <Link href={"/contact"} aria-label="Localização da Mecânica Mundial">
+          <Link href={"/#contact"} aria-label="Localização da Mecânica Mundial">
             <Map
               size="24" 
               className="text-white hover:text-blue-500"
