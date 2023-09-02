@@ -32,11 +32,11 @@ export default function Footer() {
             className={pathName == "/about" ? "text-blue-500 border-b-2 border-blue-500" : ""}
           > A EMPRESA </Link>
           <Link 
-            href="/products"
+            href="/#products"
             className={pathName == "/products" ? "text-blue-500 border-b-2 border-blue-500" : ""}
           > PRODUTOS </Link>
           <Link 
-            href="/services"
+            href="/#services"
             className={pathName == "/services" ? "text-blue-500 border-b-2 border-blue-500" : ""}
           > SERVIÇOS </Link>
           <Link 

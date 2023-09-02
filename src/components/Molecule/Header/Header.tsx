@@ -43,10 +43,10 @@ export default function Header() {
           <LinkNav path="/">
             HOME
           </LinkNav>
-          <LinkNav path="/services" >
+          <LinkNav path="/#services" >
             SERVIÇOS
           </LinkNav>
-          <LinkNav path="/products" >
+          <LinkNav path="/#products" >
             PRODUTOS
           </LinkNav>
           <LinkNav path="/about" >
@@ -64,7 +64,7 @@ export default function Header() {
               className="text-white hover:text-blue-500"
             />
           </Link>
-          <Link href={"/contact"} aria-label="Localização da Mecânica Mundial">
+          <Link href={"/#contact"} aria-label="Localização da Mecânica Mundial">
             <Map
               size="24" 
               className="text-white hover:text-blue-500"

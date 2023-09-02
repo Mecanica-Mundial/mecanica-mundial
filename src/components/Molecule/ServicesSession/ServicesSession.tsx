@@ -1,16 +1,21 @@
 import ServiceCard from "@/components/Atom/ServiceCard/ServiceCard";
 
-export default function ServicesSession({data}) {
-  interface typeService {
-    tituloStrong: string,
-    tituloNormal: string,
-    id: number,
-    description: string,
-    image: string
-  }
+interface TypeService {
+  tituloStrong: string,
+  tituloNormal: string,
+  id: number,
+  description: string,
+  image: string
+}
+
+interface ServicesSessionProps {
+    data: TypeService[]
+}
+
+export default function ServicesSession({data}: ServicesSessionProps) {
 
   return (
-    <div className="bg-whiteMundial w-full font-out">
+    <div className="bg-whiteMundial w-full font-out" id="services">
       <div className="p-10">
         <h1 className="cursor-default text-blackMundial text-[2.7rem] font-medium mb-8">SERVIÇOS</h1>
         <p className="cursor-default text-blackMundial text-xl font-normal mb-8">
@@ -24,7 +29,7 @@ export default function ServicesSession({data}) {
         </p>
       </div>
       <div className="grid lg:grid-cols-4 md:grid-cols-3 justify-items-center">
-        {data.map((servico: typeService) => (
+        {data.map((servico) => (
           <ServiceCard
             key={servico.id}
             tituloStrong={servico.tituloStrong}
