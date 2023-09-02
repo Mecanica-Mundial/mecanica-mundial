@@ -5,7 +5,7 @@ import Scroll from '../../../../public/images/scroll.png'
 
 export default function Hero() {
     return (
-    <section className='bg-blackMundial h-[43rem] w-full px-20 md-10:px-28 md-11:px-32 md-12:px-36 md-13:px-44 md-14:px-52 md-15:px-60 l-10:px-14 l-11:px-11 sm-13:px-4 pt-6 flex flex-col items-center justify-center gap-6'>
+    <section className='bg-blackMundial h-[43rem] w-full px-24 md-10:px-28 md-11:px-32 md-12:px-36 md-13:px-44 md-14:px-52 md-15:px-60 l-10:px-14 l-11:px-11 sm-13:px-4 pt-6 flex flex-col items-center justify-center gap-6'>
         <div className='w-full relative h-[27rem] l-12:h-[35rem] sm-12:h-[30rem]'>
             <div className='flex flex-col w-full gap-6 sm-13:gap-4 l-11:gap-8 items-start justify-center'>
                 <h1 className='font-wall font-bold uppercase text-8xl l-12:text-7xl w-80 sm-10:w-72 sm-12:w-full sm-10:text-6xl sm-11:text-[3.25rem] sm-12:text-[2.5rem] sm-13:text-4xl text-primary'>Centro Especializado</h1>
