@@ -11,7 +11,7 @@
 </ul>
 
 ### Descrição
-Projeto proposto pela Escola DNC para um cliente real, uma mecânica chamanda "Mundial". Com o objetivo de desenvolver uma aplicação para conectar de forma simples os seus clientes com seus serviços.
+Projeto proposto pela Escola DNC para um cliente real, uma mecânica chamada "Mundial". Com o objetivo de desenvolver uma aplicação para conectar de forma simples os seus clientes com seus serviços.
 
 ### Equipe
 Desenvolvedores: 
