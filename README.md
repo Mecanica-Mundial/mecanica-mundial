@@ -27,7 +27,7 @@ Desenvolvedores:
 ### Interfaces
 Modo Desktop 💻
 
-![desk](https://github.com/Mecanica-Mundial/mecanica-mundial/assets/115199808/a44a796d-97c3-402c-aac6-55f298d2b82a)
+![desk](https://github.com/Mecanica-Mundial/mecanica-mundial/assets/115199808/addde97a-2efe-465a-b6dd-5f1d744a8b35)
 
 <hr>
 
